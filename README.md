@@ -5,6 +5,9 @@ Lightweight router for riotjs using page.js
 Simple usage
 
 ```
+import router from 'riot-page/lib/route';
+import AuthStore from 'riot-auth/lib/store';
+
 router.route({
   name: 'login',
   path: '/login',
