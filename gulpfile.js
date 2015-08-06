@@ -5,7 +5,7 @@ var gulp  = require('gulp'),
 
 var paths = {
   src: 'src/**/*.js',
-  dstlib: 'dist/lib',
+  dstlib: 'dist/lib', 
   dist: 'dist/',
   watch: 'src/**',
   distw: 'dist/**'
@@ -22,7 +22,7 @@ gulp.task('src', function () {
 });
 
 gulp.task('jspm-link', shell.task([
-  'cd ./dist && jspm link jspm:riot-page@dev -y'
+  'jspm link jspm:riot-page@dev -y'
 ]))
 
 gulp.task('watch', function(){

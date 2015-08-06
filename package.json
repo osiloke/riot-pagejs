@@ -8,7 +8,15 @@
   "contributors": [
     "Osiloke Emoekpere <me@osiloke.com>"
   ],
-  "main": "dist/lib/view.js",
+  "ignore": [
+    "node_modules"
+  ],
+  "jspm":{
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "main": "lib/view.js",
   "dependencies": {  
   },
   "devDependencies": {
